@@ -1,46 +1,3 @@
-/* .block-animation{
-     width: 200px;
-          height: 200px;
-          background-color: #2196F3;
-          transition: background-color 1s linear;
-          display: flex;
-          align-items: center;
-  justify-content: center;
-        }
-        
-        .block-animation:hover {
-          background-color: #3F51B5;
-        }
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-        .box {
-  width: 250px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-
- */
-/* 
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f9f9fd;
-} */
 .container {
   min-height: 100vh;
   display: flex;
@@ -50,22 +7,14 @@ body {
 .box {
   width: 200px;
   height: 200px;
-  border-radius: 10px;
-  background-color: tomato;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
-  /*  Задаём значения перехода  */
-  transition-property: background-color, transform;
-  transition-duration: 2500ms;
+  background-color: red;
+  transition-duration: 2000ms;
   transition-timing-function: linear;
-  transition-delay: 0;
+ 
 }
-
-/* При ховере меняем значения анимируемых свойств */
 .box:hover {
-  background-color:orange;
+  background-color: orange;
   transform: rotate(180deg);
-   background-color: green;
+  background-color: green;
   transform: rotate(180deg);
 }
