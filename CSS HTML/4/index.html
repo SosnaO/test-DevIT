@@ -8,25 +8,65 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-     <form class="form">
-        <label class="formLabel">Email
-        <input class="formInput" type="text" name="Email" placeholder="Email" >
-        </label>
-        <label  class="formLabel">Avatar
-        <input class="formInput" name="Avatar"  placeholder="Avatar"//>
-        </label>
-         <label class="formLabel">First Name
-        <input class="formInput" type="text" name="First Name" placeholder="First Name"/>
-        </label>
-        <label class="formLabel">Last Name
-        <input class="formInput" type="text" name="Last Name" placeholder="Last Name"/>
-        </label>
-        <label class="formLabel">Age
-        <input class="formInput"  name="Age"  placeholder="Age"/>
-        </label>
-        <label class="formLabel">Password
-        <input class="formInput" type="text" name="Password" placeholder="Password"/>
-        </label>
-         </form>
+    <form action="" class="form">
+      <label class="formLabel"
+        >Email
+        <input
+          class="formInput"
+          type="email"
+          name="Email"
+          placeholder="Email"
+          required
+        />
+      </label>
+      <label class="formLabel"
+        >Avatar
+        <input type="file" accept=".png" title="расширение .png размер не больше 1Mb"/>
+            </label>
+      <label class="formLabel"
+        >First Name
+        <input
+          class="formInput"
+          type="text"
+          name="First Name"
+          placeholder="First Name"
+          required
+        />
+      </label>
+      <label class="formLabel"
+        >Last Name
+        <input
+          class="formInput"
+          type="text"
+          name="Last Name"
+          placeholder="Last Name"
+          required
+        />
+      </label>
+      <label class="formLabel"
+        >Age
+        <input
+          class="formInput"
+          name="Age"
+          placeholder="Age"
+          title="Только цифры"
+          required
+        />
+      </label>
+      <label class="formLabel"
+        >Password
+        <input
+          class="formInput"
+          type="password"
+          name="Password"
+          title="Пароль должен состоять из 8 символов,содержать буквы нижнего/верхнего регистра, цифры и хотя бы 1 спец символ."
+          placeholder="Password"
+          required
+        />
+      </label>
+      <button class="button" type="submit" disabled >Submit</button>
+    </form>
+
+    <script src="script12.js" type="module"></script>
   </body>
 </html>
