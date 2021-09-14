@@ -7,8 +7,5 @@
 // }
 
 
-// toPromise(asyncPlus, [1, 2])
-//     .then(console.log)
-    // .finally(() => console.log("Promise settled"));
- // Output: 3
+// toPromise(asyncPlus, [1, 2]).then(console.log)
 
