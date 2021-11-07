@@ -1,20 +1,17 @@
-.container {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .box {
   width: 200px;
   height: 200px;
+  position: absolute;
+  top: 250px;
+  left: 250px;
   background-color: red;
-  transition-duration: 2000ms;
-  transition-timing-function: linear;
- 
+  animation: moving 3s infinite linear;
 }
-.box:hover {
-  background-color: orange;
-  transform: rotate(180deg);
-  background-color: green;
-  transform: rotate(180deg);
+@keyframes moving {
+  100% {
+    background-color: orange;
+    transform: rotate(180deg);
+    background-color: green;
+    transform: rotate(180deg);
+  }
 }

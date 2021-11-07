@@ -1,1 +1,1 @@
-mongo shell - не знаю
+<!-- mongo shell - не знаю -->
