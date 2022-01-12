@@ -1,49 +1,73 @@
-.thumb{
-  position: relative; 
+a {
+  margin: 0px;
 }
-.text-bottom-right{
+body {
+  margin: auto;
+}
+p {
+  margin: 0px;
+}
+/* .image {
+  margin: 0;
+} */
+.thumb {
+  position: relative;
+  /* margin: 0; */
+}
+.text-bottom-right {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-right: 5px;
+  padding: 10px;
   display: block;
-  text-align: center;
+
   background-color: black;
   color: white;
-  width: 180px;
-  height: 40px;
+
+  margin-bottom: 5px;
 }
+.text-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  padding: 10px;
+  display: block;
+
+  background-color: black;
+  color: white;
+
+  margin-bottom: 5px;
+}
+
 .text-center {
   position: absolute;
   bottom: 50%;
   right: 50%;
   display: block;
-  text-align: center;
   background-color: black;
   color: white;
-  width: 180px;
-  height: 40px;
+  padding: 10px;
+  width: fit-content;
+  margin-bottom: -23px;
+  margin-right: -87px;
 }
- .text-top-right {
+.text-top-right {
   position: absolute;
-  top: 0;
   right: 0;
-  margin-right: 100px;
   display: block;
-  text-align: center;
   background-color: black;
   color: white;
-  width: 180px;
-  height: 40px;
+
+  padding: 10px;
 }
 .text-top-left {
   position: absolute;
-  top: 0;
-  left: 0;
   display: block;
-  text-align: center;
   background-color: black;
   color: white;
-  width: 180px;
-  height: 40px;
-} 
+  padding: 10px;
+}
+/* .container {
+  margin: auto;
+  } */
